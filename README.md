@@ -3,4 +3,4 @@
 
 ## Install with userChromeJS
 
-https://github.com/robrop/FullScreen-FirefoxMac/tree/install_userChromeJS
+Branch [install_userChromeJS](https://github.com/robrop/FullScreen-FirefoxMac/tree/install_userChromeJS)
