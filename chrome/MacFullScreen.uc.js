@@ -32,7 +32,7 @@ UC.FullScreen = {
 			key: 'f',
 			oncommand: 'UC.FullScreen.toggleFullScreen()',
 		});
-		keyset.appendChild(fullkey);
+		keyset.appendChild(FullScreenKey);
 	},
 
 	toggleFullScreen() {
@@ -49,6 +49,10 @@ UC.FullScreen = {
 		_uc.windows((doc, win) => {
 			doc.getElementById('FullScreen-keyset').remove();
 		});
+		var sss = Components.classes["@mozilla.org/content/style-sheet-service;1"].getService(Components.interfaces.nsIStyleSheetService);
+		if (sss.sheetRegistered(UC.FullScreen.chromefile, sss.USER_SHEET)) {
+			sss.unregisterSheet(UC.FullScreen.chromefile, sss.USER_SHEET);
+		}
 		delete UC.FullScreen;
 	}
 }
