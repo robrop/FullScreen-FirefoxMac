@@ -3,4 +3,12 @@
 
 ## Install with userChromeJS
 
-Branch [install_userChromeJS](https://github.com/robrop/FullScreen-FirefoxMac/tree/install_userChromeJS)
+### Dependency
+
+Install userChromeJS:   
+https://github.com/xiaoxiaoflood/firefox-scripts
+
+
+### Install path
+
+https://developer.mozilla.org/en-US/docs/Mozilla/Firefox/Enterprise_deployment_before_60#Configuration
