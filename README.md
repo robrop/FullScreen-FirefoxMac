@@ -27,6 +27,20 @@ Place the `MacFullScreen.uc.js` file in your profile folder.
 Path:
 `/profile-folder/chrome/`
 
+## Hotkey
+
+The defgault hotkey is **Command-Option-Shift-F**    
+To change the hotkey you have to modify **line 31** and **line 32** in `MacFullScreen.uc.js`.
+Key | Modifier
+----|----
+Command ⌘ | accel
+Shift ⇧ | shift
+Option ⌥ | alt
+Control ⌃ | control
+
+More information: https://developer.mozilla.org/en-US/docs/Archive/Mozilla/XUL/Tutorial/Keyboard_Shortcuts
+
+
 <!--
 Install path for js injection
 https://developer.mozilla.org/en-US/docs/Mozilla/Firefox/Enterprise_deployment_before_60#Configuration
