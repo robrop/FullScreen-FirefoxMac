@@ -10,7 +10,13 @@ At the end you should have the file `/profile-folder/chrome/userChromeFullScreen
 
 ### Customisation
 
-If you have the bookmark-bar enabled change **line 15** in `userChromeFullScreen.css` to    
+If you have the Bookmarks Toolbar enabled change **line 15** in `userChromeFullScreen.css`.
+
+No Bookmarks Toolbar:
+```css
+margin-top: calc(-40px - var(--tab-min-height));
+```
+With Bookmarks Toolbar enabled:
 ```css
 margin-top: calc(-68px - var(--tab-min-height));
 ```
@@ -44,4 +50,6 @@ More information: https://developer.mozilla.org/en-US/docs/Archive/Mozilla/XUL/T
 <!--
 Install path for js injection
 https://developer.mozilla.org/en-US/docs/Mozilla/Firefox/Enterprise_deployment_before_60#Configuration
+Original userChrome.css
+https://pmueller.de/firefox-mac-mit-echtem-vollbild/
 -->
